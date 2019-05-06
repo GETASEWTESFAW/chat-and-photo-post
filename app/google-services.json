@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783950369192",
+    "firebase_url": "https://etta-191d1.firebaseio.com",
+    "project_id": "etta-191d1",
+    "storage_bucket": "etta-191d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783950369192:android:b798535fe09c2f3e",
+        "android_client_info": {
+          "package_name": "com.example.etta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783950369192-qn3a1cbaqdo9ljb7lkuid2b22dgebb29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.etta",
+            "certificate_hash": "8e52cb72e113845fcf86a421325945987ee655b6"
+          }
+        },
+        {
+          "client_id": "783950369192-fno3tta32nlfn5h5utfqbt9851rauddu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWDC55BDjbJZcKur-bOE1U-Zxo5dxnZQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783950369192-fno3tta32nlfn5h5utfqbt9851rauddu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

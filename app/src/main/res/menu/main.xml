@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/linearview"
+        android:orderInCategory="100"
+        android:title="LinearView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/gridVew"
+        android:orderInCategory="100"
+        android:title="GridView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+</menu>
