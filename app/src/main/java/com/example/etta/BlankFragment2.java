@@ -137,6 +137,7 @@ public class BlankFragment2 extends Fragment {
                                     databaseReferencePost.child(child).setValue(post);
                                     uploadbar.setVisibility(View.GONE);
                                     uploadImage.setImageResource(R.drawable.ic_menu_camera);
+                                    discription.setText("");
                                     handler.post(new Runnable() {
                                         @Override
                                         public void run() {

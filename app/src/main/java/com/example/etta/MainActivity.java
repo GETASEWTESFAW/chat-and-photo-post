@@ -197,18 +197,25 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.linearview) {
             int i=1;
             setting.edit().putInt("layout", i).apply();
-            ft=getFragmentManager().beginTransaction();
-            Fragment fragment = new PostFragment();
-             displaySelectedFragment(fragment);
+            Fragment fragment1=getSupportFragmentManager().findFragmentByTag("fragment");
+            if (fragment1 instanceof PostFragment){
+                ft=getFragmentManager().beginTransaction();
+                Fragment fragment = new PostFragment();
+                displaySelectedFragment(fragment);
+            }
+
 
             return true;
         }
         else if (id==R.id.gridVew){
             int i=2;
             setting.edit().putInt("layout", i).apply();
-            ft=getFragmentManager().beginTransaction();
-            Fragment fragment = new PostFragment();
-            displaySelectedFragment(fragment);
+            Fragment fragment1=getSupportFragmentManager().findFragmentByTag("fragment");
+            if (fragment1 instanceof PostFragment) {
+                ft = getFragmentManager().beginTransaction();
+                Fragment fragment = new PostFragment();
+                displaySelectedFragment(fragment);
+            }
             return true;
 
         }

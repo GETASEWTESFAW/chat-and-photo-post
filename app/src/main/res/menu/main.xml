@@ -7,6 +7,11 @@
         android:title="LinearView"
         app:showAsAction="never" />
     <item
+        android:id="@+id/progress"
+        android:orderInCategory="100"
+        android:actionLayout="@layout/progress_bar"
+        app:showAsAction="always" />
+    <item
         android:id="@+id/gridVew"
         android:orderInCategory="100"
         android:title="GridView"
